@@ -49,9 +49,9 @@ public class TreeSetExam {
 			ts2.add(score[i]);
 		}
 		
-		System.out.println("50보다 작은 값" + ts2.tailSet(new Integer(50)));
+		System.out.println("50보다 큰 값" + ts2.tailSet(new Integer(50)));
 		// 50보다 작은 값[50, 65, 80, 90]
-		System.out.println("50보다 큰 값" + ts2.headSet(new Integer(50)));
+		System.out.println("50보다 작은 값" + ts2.headSet(new Integer(50)));
 		// 50보다 큰 값[35]
 	}
 
